@@ -1968,8 +1968,6 @@ remove_cookie_all()
 	return (rv);
 }
 
-
-
 int
 toplevel_cmd(struct tab *t, struct karg *args)
 {
