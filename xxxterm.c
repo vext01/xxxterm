@@ -3054,7 +3054,7 @@ struct cmd {
 	{ "toggle",		1,	cookie_cmd,		XT_WL_TOGGLE | XT_WL_FQDN,			0 },
 	{ "domain",		2,	cookie_cmd,		XT_WL_TOGGLE | XT_WL_TOPLEVEL,			0 },
 	{ "fqdn",		2,	cookie_cmd,		XT_WL_TOGGLE | XT_WL_FQDN,			0 },
-	{ "clearcookies",	0,	cookie_cmd,		XT_DELETE,					0 },
+	{ "purge",		1,	cookie_cmd,		XT_DELETE,					0 },
 
 	/* plugin command */
 	{ "plugin",		0,	pl_cmd,			XT_SHOW | XT_WL_PERSISTENT | XT_WL_SESSION,	0 },
