@@ -5574,7 +5574,7 @@ entry_key_cb(GtkEntry *w, GdkEventKey *e, struct tab *t)
 
 	/* clear uri entry bar */
 	if ((e->state & GDK_CONTROL_MASK) && (e->keyval == 'u'))
-		gtk_entry_set_text(GTK_ENTRY(t->uri_entry), "");
+		gtk_entry_set_text(GTK_ENTRY(w), "");
 
 	return (handle_keypress(t, e, 1));
 }
